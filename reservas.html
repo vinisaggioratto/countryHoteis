@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>Country Hotéis - Reservas</title>
+
+    <link rel="shortcut icon" href="img/faviconBranco.png" type="image/x-icon">
+
+    <!--Google fonts - lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--CSS only bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!--CSS local-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/reservas.css">
+</head>
+
+<body>
+    <!--NAVBAR CABEÇALHO-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container">
+            <!--ÍCONE MARCA CHAPÉU-->
+            <a href="index.html" class="navbar-brand primary-color">
+                <img src="img/chapeu-de-cauboi-128.png" alt="Country Hotéis">
+                <span>Country Hotéis</span>
+            </a>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="col-12" id="container-reservas">
+            <div class="row">
+                <div class="col-12" id="titulo-reservas">
+                    <h2 class="primary-color">Reservas já efetuadas:</h2>
+                </div>
+
+                <div class="col-12 col-12-md-12" id="reservas">
+                    <div class="table-responsive">
+                        <table class="table  table-striped" id="tabela">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">E-mail</th>
+                                    <th scope="col">Data de entrada</th>
+                                    <th scope="col">Data de saída</th>
+                                    <th scope="col">Adultos</th>
+                                    <th scope="col">Crianças</th>
+                                    <th scope="col">Observações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="body-tabela">
+                                <!--Aqui serão mostradas as reservas-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--RODAPÉ COMPLETO-->
+    <div class="container-fluid bg-primary-color" id="container-rodape">
+        <div class="container">
+
+            <div class="container" id="dev-icons">
+                <div class="row">
+                    <div class="col-12 col-md-6" id="developer">
+                        Vinicius G. Saggioratto &copy; 2023
+                    </div>
+                    <div class="col-12 col-md-6" id="social-icons">
+                        <a href="https://github.com/vinisaggioratto" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/viniciussaggioratto/" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/reservas.js"></script>
+</body>
+
+</html>

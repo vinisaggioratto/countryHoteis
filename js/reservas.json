@@ -1,0 +1,54 @@
+{
+  "reservas": [
+    {
+      "nome": "Vinicius Gabriel Saggioratto",
+      "email": "viniciussaggioratto@gmail.com",
+      "dataEntrada": "2023-09-25",
+      "dataSaida": "2023-09-29",
+      "adultos": 2,
+      "criancas": 1,
+      "observacoes": "Nenhuma observação",
+      "id": 1
+    },
+    {
+      "nome": "Maria Firefox",
+      "email": "mariaf@gmail.com",
+      "dataEntrada": "2023-09-01",
+      "dataSaida": "2023-09-03",
+      "observacoes": "a",
+      "adultos": "2",
+      "criancas": "9",
+      "id": 2
+    },
+    {
+      "nome": "Marcolino Google",
+      "email": "marcolino@gmail.com",
+      "dataEntrada": "2023-09-05",
+      "dataSaida": "2023-09-09",
+      "observacoes": "d",
+      "adultos": "2",
+      "criancas": "0",
+      "id": 3
+    },
+    {
+      "nome": "Rosalva Nunes",
+      "email": "rosalva@gmail.com",
+      "dataEntrada": "2023-08-27",
+      "dataSaida": "2023-09-02",
+      "observacoes": "a",
+      "adultos": "4",
+      "criancas": "0",
+      "id": 4
+    },
+    {
+      "nome": "Chico Rei",
+      "email": "chicor@gmail.com",
+      "dataEntrada": "2023-09-25",
+      "dataSaida": "2023-10-04",
+      "observacoes": "a",
+      "adultos": "1",
+      "criancas": "1",
+      "id": 5
+    }
+  ]
+}

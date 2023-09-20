@@ -1,0 +1,220 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: #fff;
+}
+
+.bg-secondary-color {
+    background-color: #ece8ea;
+}
+
+.bg-dark-color {
+    background-color: #050505;
+}
+
+.primary-color {
+    color: #050505;
+}
+
+.secondary-color {
+    color: #7a7a7a;
+}
+
+/*NAVBAR CABEÇALHO*/
+#navbar {
+    border-bottom: 1px solid #7a7a7a;
+    height: 6em;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 1.5em;
+}
+
+/*CONTAINER-SUPERIOR*/
+
+#container-superior {
+    display: flex;
+    margin-top: 6em;
+}
+
+#div-descricao-imagem img {
+    height: 450px;
+    width: 800px;
+    border: 2px solid #000;
+}
+
+#container-descricao {
+    display: block;
+    margin-top: 2.8em;
+    border: 1px solid #000;
+    padding: 1em;
+}
+
+#btn-descricao {
+    padding: 0.5em 1.5em;
+    background-color: #FFF;
+    margin-top: 1em;
+    border-radius: 1.5em;
+    border: 2px solid #000;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+#btn-descricao:hover {
+background-color: #ece8ea;
+}
+
+/*TITULO HOSPEDAR*/
+
+#container-hospedar {
+    margin-top: 3em;
+}
+
+.title-hospedar {
+    font-size: 1.75em;
+    margin-bottom: .4em;
+    display: flex;
+    justify-content: center;
+}
+
+/*CAFE E ACESSO*/
+
+#icone-cafe-acesso {
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icone-cafe-acesso i {
+    font-size: 2em;
+}
+
+#cafe-acesso .card {
+    border: none;
+}
+
+/*QUARTOS*/
+
+#container-quartos {
+    /*background-color: red;*/
+    border: 1px solid #000;
+    margin-bottom: 2em;
+}
+
+#quartos {
+    background-color: #7a7a7a;
+    padding: 0.5em;
+}
+
+#titulo-quartos {
+    margin-top: 0.5em;
+}
+
+#titulo-quartos span {
+    text-align: center;
+}
+
+#container-quartos .card {
+    margin: 0 2em 0;
+}
+
+#container-quartos .card-title {
+    text-align: center;
+}
+
+#row-quartos {
+    margin: 2em 0 2em;
+}
+
+/*RODAPE*/
+
+#container-rodape {
+    margin-bottom: 2em;
+    border-top: 1px solid #000;
+}
+
+#row-rodape {
+    padding: 1.5em 0 1.5em;
+}
+
+#card-reserva {
+    margin-top: 0.5em;
+    border: none;
+}
+
+#card-reserva h5 {
+    font-weight: 600;
+}
+
+#container-rodape form input {
+    border: 1px solid #000;
+}
+
+#container-rodape form textarea {
+    border: 1px solid #000;
+}
+
+#container-rodape #btn-formulario {
+    width: 12em;
+    border-radius: 1em;
+    border: 2px solid #000;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#container-rodape #btn-formulario:hover{
+    background-color: #ece8ea;
+}
+
+/*RODAPE ICONS*/
+
+#dev-icons {
+    border-top: 1px solid #7a7a7a;
+    margin-bottom: -2em;
+}
+#developer {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#social-icons {
+    display: flex;
+    justify-content: left;
+    align-items: center;   
+}
+
+#social-icons i{
+    margin-right: 1em;
+}
+
+#mostrarReservas {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#mostrarReservas a {
+    text-decoration: none;
+    color: #7a7a7a;
+}
+
+#mostrarReservas a:hover {
+    color: red;
+    font-weight: 600;
+}
+

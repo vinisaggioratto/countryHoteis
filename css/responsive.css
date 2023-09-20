@@ -1,0 +1,202 @@
+/*NAVBAR*/
+@media(max-width: 400px) {
+    .navbar-brand span {
+        margin-left: 1em;
+    }
+
+    .navbar-brand img {
+        margin-left: 0.5em;
+    }
+
+    #navbar-logo {
+        padding-bottom: 2em;
+    }
+}
+
+/*CONTAINER-SUPERIOR*/
+@media(max-width: 400px) {
+    #container-descricao {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    #div-descricao-imagem img {
+        height: 250px;
+        border: 2px solid #000;
+    }
+
+    #div-botao-descricao {
+    display: flex;
+    justify-content: center;
+    }
+
+    #btn-descricao {
+        margin-top: 1em;
+    }
+}
+
+@media(max-width: 665px) {
+    #container-descricao {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    #container-descricao h2 {
+        text-align: center;
+    }
+
+    #div-botao-descricao {
+    display: flex;
+    justify-content: center;
+    }
+}
+
+/*TITULO HOSPEDAR*/
+@media(max-width: 400px) {
+    .title-hospedar {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #container-hospedar {
+        margin-top: 1.5em;
+    }
+}
+
+@media(max-width: 665px) {
+    .title-hospedar {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #container-hospedar {
+        margin-top: 1.5em;
+    }
+}
+
+/*CAFE E ACESSO*/
+@media(max-width: 400px) {
+    #icone-cafe-acesso {
+        border-top: 1px solid #000;
+        margin-top: 0.5em;
+    }
+
+    #icone-cafe-acesso i {
+        margin-top: 0.5em;
+    }
+
+    #cafe-acesso .card-body {
+        text-align: center;
+    }
+}
+
+@media(max-width: 665px) {
+    #icone-cafe-acesso {
+        border-top: 1px solid #000;
+        margin-top: 0.5em;
+    }
+
+    #icone-cafe-acesso i {
+        margin-top: 0.5em;
+    }
+
+    #cafe-acesso .card-body {
+        text-align: center;
+    }
+}
+
+/*QUARTOS*/
+@media(max-width: 400px) {
+    #row-quartos {
+        margin: 1em 0 1em;
+    }
+
+    #container-quartos .card {
+        margin: 0.5em 0 0.5em;
+    }
+}
+
+/*RODAPE*/
+@media(max-width: 400px) {
+
+    #card-reserva {
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+
+    #card-reserva h5,
+    p {
+        text-align: center;
+    }
+
+    #container-rodape form button {
+        width: 100%;
+        margin-top: 2em;
+        border: 2px solid #000;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 665px) {
+
+    #card-reserva {
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+
+    #card-reserva h5,
+    p {
+        text-align: center;
+    }
+
+    #container-rodape #btn-formulario {
+        width: 100%;
+        margin-top: 2em;
+        border: 2px solid #000;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+}
+
+/*RODAPE ICONS*/
+@media(max-width: 400px) {
+    #developer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    #mostrarReservas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 665px) {
+    #developer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    #mostrarReservas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

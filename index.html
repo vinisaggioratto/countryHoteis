@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>Country Hotéis</title>
+
+    <link rel="shortcut icon" href="img/faviconBranco.png" type="image/x-icon">
+
+    <!--Google fonts - lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--CSS only bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!--CSS local-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--NAVBAR CABEÇALHO-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container">
+            <!--ÍCONE MARCA CHAPÉU-->
+            <a href="index.html" class="navbar-brand primary-color">
+                <img src="img/chapeu-de-cauboi-128.png" alt="Country Hotéis">
+                <span>Country Hotéis</span>
+            </a>
+        </div>
+    </nav>
+
+    <!--CONTAINER SUPERIOR-->
+    <div class="container" id="container-superior">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-4" id="div-descricao">
+                    <div id="container-descricao">
+                        <h2 class="primary-color">Sinta o conforto acolhedor de nossas hospedagens</h2>
+                        <p class="secondary-color">
+                            Hospede-se nos nossos hotéis com quartos a partir de R$ 100,00
+                        </p>
+                        <div id="div-botao-descricao">
+                            <button class="btn btn-light" id="btn-descricao">SAIBA MAIS</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8" id="div-descricao-imagem">
+                    <img src="img/camax1000x1000.jpg" alt="Cama de luxo" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--TITULO POR QUE SE HOSPEDAR-->
+    <div class="container">
+        <div class="col-12" id="container-hospedar">
+            <h2 class="title-hospedar primary-color">POR QUE SE HOSPEDAR EM NOSSOS HOTÉIS?</h2>
+        </div>
+    </div>
+
+    <!--CAFÉ E ACESSO-->
+
+    <div class="container">
+        <div class="col-12 col-md-12" id="cafe-acesso">
+            <div class="row">
+                <div class="col-12 col-md-6" id="container-cafe">
+                    <div class="card">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-2" id="icone-cafe-acesso">
+                                    <i class="bi bi-cup-hot"></i>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicioso café da manhã</h5>
+                                        <p class="card-text secondary-color">Incluso em todas as diárias</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6" id="container-acesso">
+                    <div class="card">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-2" id="icone-cafe-acesso">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fácil acesso</h5>
+                                        <p class="card-text secondary-color">Perto dos principais pontos turísticos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--QUARTOS-->
+    <div class="container">
+        <div class="col-12 col-md-12" id="container-quartos">
+
+            <div class="col-12 primary-color" id="titulo-quartos">
+                <span>
+                    <h3>NOSSOS QUARTOS</h3>
+                </span>
+            </div>
+
+            <div class="row" id="row-quartos">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/suite-solteiro.jpg" class="card-img-top" alt="Suíte Solteiro">
+                        <div class="card-body">
+                            <h5 class="card-title">Suíte Solteiro</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/suite-casal.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Suíte Casal</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <img src="img/suite-master.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Suíte Master</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--RODAPÉ COMPLETO-->
+    <div class="container-fluid  bg-primary-color" id="container-rodape">
+        <div class="container">
+            <div class="row" id="row-rodape">
+
+                <div class="col-12 col-md-4">
+                    <div class="card" id="card-reserva">
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">FAÇA SUA RESERVA</h5>
+                            <p class="card-text secondary-color">Entre em contato conosco informando as datas desejadas.
+                                Lhe retornaremos informando a disponibilidade e repassando detalhes da reserva.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="form">
+                        <form method="post" action="" class="row g-3" id="formularioContato">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Nome</label>
+                                <input type="text" class="form-control" name="nome" id="input-nome" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" name="email" id="input-email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Data de entrada</label>
+                                <input type="date" class="form-control" name="dataEntrada" id="input-dataentrada"
+                                    required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Data de saída</label>
+                                <input type="date" class="form-control" name="dataSaida" id="input-datasaida" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Observações</label>
+                                <textarea class="form-control" name="observacoes" id="reserva-observacoes"
+                                    placeholder="Nenhuma observação" rows="3"></textarea>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="" class="form-label">Adultos</label>
+                                <input type="text" class="form-control" name="adultos" id="input-adultos" required>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="" class="form-label">Crianças</label>
+                                <input type="text" class="form-control" name="criancas" id="input-criancas" required>
+                            </div>
+                            <div class="col-12 col-md-12 text-end">
+                                <button type="submit" class="btn" id="btn-formulario" value="Enviar">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="dev-icons">
+                <div class="row">
+                    <div class="col-12 col-md-6" id="developer">
+                        Vinicius G. Saggioratto &copy; 2023
+                    </div>
+                    <div class="col-12 col-md-5" id="social-icons">
+                        <a href="https://github.com/vinisaggioratto" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/viniciussaggioratto/" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                    <div class="col-12 col-md-1" id="mostrarReservas">
+                        <a href="reservas.html">Reservas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="meuModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Cabeçalho -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Formulário de contato</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Conteúdo -->
+                <div class="modal-body">
+                    <p>Formulário enviado com sucesso! Em breve entraremos em contato.</p>
+                </div>
+
+                <!-- Rodapé -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Fechar </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/js.js"></script>
+    <script src="js/reservas.js"></script>
+</body>
+
+</html>

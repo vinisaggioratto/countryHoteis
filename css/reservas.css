@@ -1,0 +1,22 @@
+
+
+#container-reservas {
+    margin-top: 8em;
+}
+#container-rodape {
+    margin-top: 6em;
+}
+
+#titulo-reservas {
+    border-bottom: 1px solid #000;
+}
+
+#reservas {
+    margin-top: 1em;
+}
+
+/*RODAPÉ*/
+#container-rodape {
+    margin-bottom: 2em;
+    border-top: none;
+}
